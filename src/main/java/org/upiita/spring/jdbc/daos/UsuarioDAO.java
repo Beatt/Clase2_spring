@@ -4,6 +4,10 @@ import java.util.List;
 
 import org.upiita.spring.jdbc.entidades.Usuario;
 
+/*
+ * Este es un cambio importante.
+ */
+
 public interface UsuarioDAO {
 
 	public Usuario buscaUsuarioPorId(Integer usuarioId);
